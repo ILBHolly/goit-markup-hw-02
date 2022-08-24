@@ -1,0 +1,17 @@
+/* logo #000000, #2196F3 */
+/* focus link #2196F3 */
+/* text logo ##212121 */
+/* оглавление статьи #212121 */
+/* статья #757575 */
+/* заказть услугу #757575 */
+
+:root {
+    --primary-text-color: #757575
+    --title-text-color: #212121
+    --accent-text-color: #2196F3
+}
+
+.body {
+    background-color: #E5E5E5;
+    
+}
