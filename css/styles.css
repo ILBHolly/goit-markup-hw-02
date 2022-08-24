@@ -6,12 +6,99 @@
 /* заказть услугу #757575 */
 
 :root {
-    --primary-text-color: #757575
-    --title-text-color: #212121
-    --accent-text-color: #2196F3
+    --primary-text-color: #757575;
+    --accent-text-color: #2196F3;
+    --title-text-color: #000000;
+    --nav-text-color: #212121;
+
+
 }
 
 .body {
-    background-color: #E5E5E5;
-    
+    background-color: #ffffff;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-link {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--accent-text-color);
+    text-decoration: none;
+}
+
+.logo-accent {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color)
+}
+
+.nav-item {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--nav-text-color);
+    list-style: none;
+}
+
+.nav-item:hover, .nav-item:focus {
+    color: var(--accent-text-color);
+}
+
+.header-info{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.info-mail:hover, .info-mail:focus {
+    color: var(--accent-text-color);
+}
+
+.hero-section {
+    background: #2F303A;
+}
+
+.hero-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    background-color: var(--accent-text-color);
+    color: #FFFFFF;
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
 }
